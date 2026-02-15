@@ -26,7 +26,7 @@ export const App = () => {
       case 'length':
         return good1.length - good2.length;
       default:
-        return goodsFromServer;
+        return 0;
     }
   });
 
